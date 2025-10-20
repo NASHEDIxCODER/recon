@@ -1,0 +1,33 @@
+# Virtual Environment
+# This is the folder that holds your Python libraries (e.g., venv, .venv)
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor and IDE directories
+# For PyCharm, VSCode, etc.
+.idea/
+.vscode/
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Temporary files from your recon script
+subfinder.txt
+assetfinder.txt
+all_subdomains.txt
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
