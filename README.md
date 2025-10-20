@@ -100,13 +100,8 @@ go install github.com/michenriksen/aquatone@latest
     git clone https://github.com/NASHEDIxCODER/recon.git
     cd recon
     ```
-2.  **Install Python libraries:**
-    ```bash
-    pip install -r requirements.txt
-    ```
 
-
-3.  **(Recommended) Make it a Global Command:**
+2**(Recommended) Make it a Global Command:**
     Move the script to a directory in your PATH to run it from anywhere.
     ```bash
     sudo mv recon.py /usr/local/bin/recon
