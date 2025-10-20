@@ -101,7 +101,7 @@ go install github.com/michenriksen/aquatone@latest
     cd recon
     ```
 
-2**(Recommended) Make it a Global Command:**
+**(Recommended) Make it a Global Command:**
     Move the script to a directory in your PATH to run it from anywhere.
     ```bash
     sudo mv recon.py /usr/local/bin/recon
