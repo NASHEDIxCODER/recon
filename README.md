@@ -97,6 +97,7 @@ go install github.com/michenriksen/aquatone@latest
 **Clone the repository:**
 
     ```bash
+
     git clone https://github.com/NASHEDIxCODER/recon.git
     cd recon
     ```
@@ -105,8 +106,10 @@ go install github.com/michenriksen/aquatone@latest
     Move the script to a directory in your PATH to run it from anywhere.
 
     ```bash
+
     sudo mv recon.py /usr/local/bin/recon
     sudo chmod +x /usr/local/bin/recon
+
     ```
 
 ---
