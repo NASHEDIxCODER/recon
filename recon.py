@@ -65,7 +65,7 @@ def find_live_hosts_and_tech(subdomains, temp_dir, output_dir):
     with open(subdomains_file, 'w') as f:
         f.write('\n'.join(subdomains))
 
-    httpx_cmd = ["httpx-pd", "-l", subdomains_file, "-o", str(live_hosts_output_file), "-silent", "-tech-detect", "-title",
+    httpx_cmd = ["httpx", "-l", subdomains_file, "-o", str(live_hosts_output_file), "-silent", "-tech-detect", "-title",
                  "-status-code"]
 
     try:
