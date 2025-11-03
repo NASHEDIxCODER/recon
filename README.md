@@ -77,7 +77,7 @@ sudo apt install -y git python3-pip golang-go subfinder assetfinder httpx nmap n
 
 # Install aquatone using Go
 ```bash
-go install [github.com/michenriksen/aquatone@latest](https://github.com/michenriksen/aquatone@latest)
+go install https://github.com/michenriksen/aquatone@latest
 ```
 
 
